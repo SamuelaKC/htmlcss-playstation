@@ -31,7 +31,6 @@ div.sticky {
     position: sticky;
     top: 0;
     background-color: white;
-    align-self: flex-start;
 }
 
 .link-nav {
@@ -45,10 +44,6 @@ div.sticky {
 
 .link-nav a:hover {
     color: #0072ce;
-}
-
-.navbar .navbar-collapse {
-    flex-grow: 0;
 }
 
 .conteiner-right {
@@ -70,13 +65,124 @@ div.sticky {
     font-weight: 600;
 }
 
-.search {
-    padding-left: 20px;
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 5px 20px;
 }
 
-.search i {
-    font-size: 25px;
-}
+    .cerca {
+        position: relative;
+    }
 
+    .cerca i{
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        color: gray;
+        }
 
 /* HEADER GIOCO */
+
+.background-header {
+    background-image: url(../img/jumbo-bg.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 675px;    
+}
+
+.container-return-content {
+    color: white;
+}
+
+.content-return-image img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.content-return h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.content-return p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIAQUERY  */
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    .container-return {
+    padding-top: 265px;
+    padding-left: 5px;
+    }
+    .content-return-image img {
+    width: 300px;
+    }
+
+    .content-return h2 {
+    font-weight: 600;
+    }
+
+}
+/* ************** */
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+    .container-return {
+    padding-top: 265px;
+    padding-left: 20px;
+
+    }
+    .content-return-image img {
+    width: 400px;
+    }
+
+    .content-return h2 {
+    font-weight: 600;
+    }
+
+}
+
+/* ************** */
+
+@media screen and (min-width: 1024px) and (max-width: 1199px)  {
+    .container-return {
+    padding-top: 265px;
+    padding-left: 20px;
+    }
+
+    .content-return-image img {
+    width: 400px;
+    }
+
+
+}
+
+/* ************** */
+
+@media screen and (min-width: 1200px) {
+    .container-return {
+    width: 500px;
+    padding-top: 265px;
+    padding-left: 20px;
+
+    }
+
+}
