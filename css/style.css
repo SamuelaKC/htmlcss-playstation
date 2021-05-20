@@ -1,0 +1,82 @@
+/* COLOR 
+background sony #000000 nero
+background accedi #363636 grigio
+background acquista ora #cd3d0f arancione
+background immagini border hover - scritta pay has no limit + sottolineatura hover accessori play (es. cuffie) #0072ce blu
+colore scritta tuffati in nuove possibilità.... #727272
+background maggiori informazioni + scopri di più #2d64e6 blu - scritta bianca
+background nuove uscite #1f1f1f grigio piombo  scritte #ffffff bianco
+background playstation plus #bebcbb grigio chiaro
+background esplora playstation plus #d9dadc grigio + chiaro - scritta  #3469e6
+background playstation now #161c3b scritte bold bianche 
+background esplora playstation now #ffffff bianco + scritta #161c3b  blu scuro 
+colore scritta seguici sui social #1f1f1f
+background footer #00439c + scritte bianche  */
+
+/* HEADER - PARTE SUPERIORE  */
+
+.black-sony {
+    background-color: black;
+    padding: 10px;
+    text-align: end;
+}
+
+.black-sony img {
+    width: 100px;
+}
+
+/* NAV BAR */
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.link-nav {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.link-nav a:hover {
+    color: #0072ce;
+}
+
+.navbar .navbar-collapse {
+    flex-grow: 0;
+}
+
+.conteiner-right {
+    display: flex;
+    flex-grow: 0;
+}
+
+.content-right {
+    justify-content: space-around;
+    padding: 20px;
+    text-align: right;
+}
+
+.button-login {
+    background-color: #363636;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search {
+    padding-left: 20px;
+}
+
+.search i {
+    font-size: 25px;
+}
+
+
+/* HEADER GIOCO */
