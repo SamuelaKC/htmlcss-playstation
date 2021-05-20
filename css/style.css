@@ -31,6 +31,7 @@ div.sticky {
     position: sticky;
     top: 0;
     background-color: white;
+    align-self: flex-start;
 }
 
 .link-nav {
@@ -52,11 +53,10 @@ div.sticky {
 
 .conteiner-right {
     display: flex;
-    flex-grow: 0;
 }
 
 .content-right {
-    justify-content: space-around;
+    justify-content: flex-end;
     padding: 20px;
     text-align: right;
 }
