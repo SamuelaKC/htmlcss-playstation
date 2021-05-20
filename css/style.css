@@ -50,10 +50,12 @@ div.sticky {
     display: flex;
 }
 
-.content-right {
-    justify-content: flex-end;
-    padding: 20px;
-    text-align: right;
+.container-right {
+    text-align: end;
+}
+
+.content-right a, .content-right span {
+    padding-right: 30px;
 }
 
 .button-login {
@@ -63,6 +65,11 @@ div.sticky {
     border-radius: 30px;
     font-size: 20px;
     font-weight: 600;
+    border: none;
+}
+
+.button-login:hover {
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
 input[type=text] {
@@ -75,15 +82,15 @@ input[type=text] {
 }
 
     .cerca {
-        position: relative;
-    }
+    position: relative;
+}
 
     .cerca i{
-        position: absolute;
-        top: 5px;
-        right: 15px;
-        color: gray;
-        }
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: gray;
+}
 
 /* HEADER GIOCO */
 
@@ -115,6 +122,20 @@ input[type=text] {
     font-size: 14px;
     font-weight: 700;
     padding-bottom: 30px;
+}
+
+.buy {
+    background-color: #cd3d0f;
+    color: white;
+    padding: 3px 18px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.buy:hover {
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
 
