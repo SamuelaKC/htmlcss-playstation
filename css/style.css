@@ -28,6 +28,7 @@ background footer #00439c + scritte bianche  */
 /* NAV BAR */
 
 div.sticky {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: white;
