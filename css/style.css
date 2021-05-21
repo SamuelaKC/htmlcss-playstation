@@ -201,6 +201,16 @@ div.sticky {
     text-align: center;
 }
 
+ /* Secondo jumbo  */
+
+ .background-middle {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 675px;    
+}
 
 
 /* MEDIAQUERY  */
