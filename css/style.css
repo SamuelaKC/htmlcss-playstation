@@ -13,6 +13,26 @@ background esplora playstation now #ffffff bianco + scritta #161c3b  blu scuro
 colore scritta seguici sui social #1f1f1f
 background footer #00439c + scritte bianche  */
 
+/* Sezione comune a tutti */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class^="button-"] {
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+[class^="button-"]:hover {
+    box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+
+
 /* HEADER - PARTE SUPERIORE  */
 
 .black-sony {
@@ -70,15 +90,6 @@ div.sticky {
 .button-login {
     background-color: #363636;
     color: white;
-    padding: 5px 20px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-}
-
-.button-login:hover {
-    box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5);
 }
 
 /* HEADER GIOCO */
@@ -113,26 +124,60 @@ div.sticky {
     padding-bottom: 30px;
 }
 
-.buy {
+.button-buy {
     background-color: #cd3d0f;
     color: white;
-    padding: 3px 18px;
-    border-radius: 30px;
-    font-size: 20px;
+}
+
+
+/* INIZIO SEZIONI DEI GIOCHI  */
+
+.space {
+    padding-top: 50px;
+}
+
+.box-mini, .play-inner, .box {
+    border-radius: 20px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.box-mini img, .box img {
+    width: 100%;
+}
+
+.box-mini:hover {
+    border: 2px solid #2d64e6 ;
+}
+
+.color-bold-font {
+    text-align: center;
+}
+
+/* Sezione Colori Font  H */
+
+.color-bold-font h6 {
+    color: #2d64e6;
     font-weight: 600;
-    border: none;
 }
 
-.buy:hover {
-    box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5);
+.color-bold-font h1 {
+    font-weight: 700;
 }
 
+.color-bold-font h3 {
+    color: #727272;
+    font-weight: 700;
+}
 
+.button-maggiori {
+    background-color: #0072ce;
+    color: white;
+}
 
-
-
-
-
+#color-left {
+    text-align: left;
+}
 
 
 
@@ -150,7 +195,6 @@ div.sticky {
     .content-return h2 {
     font-weight: 600;
     }
-
 }
 /* ************** */
 
