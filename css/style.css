@@ -147,9 +147,9 @@ a {
 }
 
 
-/* INIZIO SEZIONI DEI GIOCHI  */
+/* BODY - SUDDIVISA IN 5  */
 
-/* PARTE A parte 1 BOOTSTRAP */
+/* PARTE A parte 1  Riga giochi BOOTSTRAP */
 
 .box-mini, .play-inner, .box {
     border-radius: 20px;
@@ -171,7 +171,7 @@ a {
     text-align: center;
 }
 
-/* PARTE A parte BOOTSTRAP  */
+/* PARTE A parte 2 Playstation 5 BOOTSTRAP  */
 
 .color-bold-font h6 {
     color: #2d64e6;
@@ -186,6 +186,8 @@ a {
     color: #727272;
     font-weight: 700;
 }
+
+/* PARTE A parte 3 Accessori BOOTSTRAP  */
 
 .button-maggiori {
     background-color: #0072ce;
@@ -216,9 +218,9 @@ a {
     text-align: center;
 }
 
- /* PARTE B parte 1 BOOTSTRAP  */
+ /* PARTE B parte 1 Jumbo Takes BOOTSTRAP + MEDIAQUERY IN FONDO */
 
- .background-middle {
+.background-middle {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,7 +246,7 @@ a {
 }
 
 
-/* PARTE B parte BOOTSTRAP */
+/* PARTE B parte 2 Nuove uscite  BOOTSTRAP */
 
 .bg-middle-color {
     background-color: #1f1f1f;
@@ -265,7 +267,7 @@ a {
     font-weight: 600;
 }
 
-/* PARTE C parte 1 BOOTSTRAP*/
+/* PARTE C parte 1 Playstation 4 BOOTSTRAP*/
 
 .playstation-4 {
     text-align: center;
@@ -280,7 +282,7 @@ a {
     vertical-align: super;
 }
 
-/* PARTE C parte 2 BOOTSTRAP*/
+/* PARTE C parte 2 Esplora Playstation BOOTSTRAP + MEDIAQUERY IN FONDO*/
 
 .explore-ps-box img {
     width: 100%;
@@ -294,14 +296,14 @@ a {
     font-size: 20px;
 }
 
-/* PARTE D parte 1 BOOTSTRAP + MEDIQUERY IN BASSO  */
+/* PARTE D parte 1 Playstation Plus BOOTSTRAP + MEDIQUERY IN FONDO */
 
 .bg-lightgray {
     background-color: #bebcbb;
 }
 
 .plus-text img {
-    width: 90%;
+    width: 100%;
 }
 
 .plus-text p {
@@ -319,7 +321,7 @@ a {
 }
 
 
-/* PARTE D parte 2 BOOTSTRAP */
+/* PARTE D parte 2 Sconti BOOTSTRAP */
 
 .discounts {
     text-align: center;
@@ -346,7 +348,7 @@ a {
     font-size: 20px;
 }
 
-/* PARTE E parte 1 BOOTSTRAP + MEDIAQUERY IN FONDO */
+/* PARTE E parte 1 Playstation Now BOOTSTRAP + MEDIAQUERY IN FONDO */
 
 .bg-blue {
     background-color: #161c3b;
@@ -358,6 +360,10 @@ a {
     padding: 50px 0;
 }
 
+.now-image img {
+    width: 100%;
+}
+
 
 .button-now {
     background-color: #d9dadc;
@@ -365,7 +371,7 @@ a {
 }
 
 
-/* PARTE E parte 2  */
+/*  PARTE E  parte 2 Social  */
 
 .social {
     text-align: center;
@@ -383,7 +389,10 @@ a {
     width: 100%;
 }
 
-/* PARTE 1A BOOTSTRAP + MEDIAQUERY IN FONDO */
+/* FOOTER- SUDDIVISA IN 2  */
+
+
+/* PARTE 1A loghi BOOTSTRAP + MEDIAQUERY IN FONDO */
 
 .bg-lightblue {
     background-color: #00439c;
@@ -400,11 +409,10 @@ a {
 }
 
 .globe {
-width: 100%;
+    width: 100%;
 }
 
-
-/* PARTE 1B BOOTSTRAP + MEDIAQUERY IN FONDO */
+/* PARTE 1B Link BOOTSTRAP + MEDIAQUERY IN FONDO */
     
 
 .container-footer ul {
@@ -420,7 +428,7 @@ width: 100%;
 }
 
 
-/* PARTE 2 BOOTSTRAP + MEDIAQUERY IN FONDO */
+/* PARTE 2 Copyright BOOTSTRAP + MEDIAQUERY IN FONDO */
 
 .logo-sie {
     width: 100%;
@@ -460,53 +468,67 @@ width: 100%;
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
 
-    /* PARTE 3 RETURN ON HEAD */
-    .container-return {
+/* HEADER PARTE 3 RETURN ON HEAD */
+
+.container-return {
     padding-top: 265px;
     padding-left: 5px;
-    }
+}
 
-    .content-return-image img {
+.content-return-image img {
     width: 300px;
-    }
+}
 
-    .content-return h2 {
+.content-return h2 {
     font-weight: 600;
-    }
+}
 
-    /* PARTE D parte 1 */
+/* BODY PARTE C parte 2 Esplora Playstation */
 
-    .container-plus {
+.explore-ps-text p {
+    min-height: 50px;
+}
+
+.explore-ps-text {
+    padding-bottom: 50px;
+}
+
+
+/* BODY  PARTE D parte 1  Playstation plus*/
+
+.container-plus {
     padding: 20px;
-    }
+}
 
-    .plus-text img{
+.plus-text img{
     width: 300px;
-    }
+}
 
 
-    /* PARTE E parte 1 */
+/*  BODY  PARTE E parte 1  Playstation Now */
 
-    .container-now {
+.container-now {
     padding: 20px;
-    }
+}
 
-    .now-text img{
+.now-text img{
     width: 300px;
-    }
+}
 
-    /* FOOTER PARTE 1A  */
+/* FOOTER PARTE 1A Loghi  */
 
 .play-image {
-width: 100px;
+    width: 100px;
 }
 
 .globe {
-width: 20px;
+    width: 20px;
 }
 
+/* FOOTER PARTE 2 Copyright  */
+
 .logo-sie {
-width: 150px;
+    width: 150px;
 }
 
 }
@@ -516,54 +538,69 @@ width: 150px;
 
 @media screen and (min-width: 768px) and (max-width: 992px)  {
 
-    /* PARTE 3 RETURN ON HEAD */
-    
-    .container-return {
+/* HEADER PARTE 3 RETURN ON HEAD */
+
+.container-return {
     padding-top: 265px;
     padding-left: 20px;
+}
 
-    }
-    .content-return-image img {
+.content-return-image img {
     width: 400px;
-    }
+}
 
-    .content-return h2 {
+.content-return h2 {
     font-weight: 600;
-    }
+}
 
-    /* PARTE D parte 1 */
 
-    .container-plus {
+/* BODY PARTE C parte 2 Esplora Playstation */
+
+.explore-ps-text p {
+    min-height: 130px;
+}
+
+.explore-ps-text {
+    padding-bottom: 50px;
+}
+
+
+
+/* BODY  PARTE D parte 1  Playstation plus*/
+
+.container-plus {
     padding: 20px;
-    }
+}
 
-    .plus-text img{
+.plus-text img{
     width: 300px;
-    }
+}
 
 
-    /* PARTE E parte 1 */
+/*  BODY  PARTE E parte 1  Playstation Now */
 
-    .container-now {
+.container-now {
     padding: 20px;
-    }
+}
 
-    .now-text img{
+.now-text img{
     width: 300px;
-    }
+}
 
-    /* FOOTER PARTE 1A  */
+/* FOOTER PARTE 1A Loghi */
 
 .play-image {
-width: 100px;
+    width: 100px;
 }
 
 .globe {
-width: 20px;
+    width: 20px;
 }
 
+/* FOOTER PARTE 2 Copyright  */
+
 .logo-sie {
-width: 200px;
+    width: 150px;
 }
 
 }
@@ -572,50 +609,64 @@ width: 200px;
 
 @media screen and (min-width: 993px) and (max-width: 1199px)  {
 
-    /* PARTE 3 RETURN ON HEAD */
+/* HEADER PARTE 3 RETURN ON HEAD */
     
-    .container-return {
+.container-return {
     padding-top: 265px;
     padding-left: 20px;
-    }
+}
 
-    .content-return-image img {
+.content-return-image img {
     width: 400px;
-    }
+}
 
-    /* PARTE D parte 1 */
 
-    .container-plus {
+/* BODY PARTE C parte 2 Esplora Playstation */
+
+.explore-ps-text p {
+    min-height: 100px;
+}
+
+.explore-ps-text {
+    padding-bottom: 50px;
+}
+
+
+/* BODY  PARTE D parte 1  Playstation plus*/
+
+.container-plus {
     padding-left: 20px;
-    }
+}
 
-    .plus-text img{
+.plus-text img{
     width: 500px;
-    }
+}
 
 
-    /* PARTE E parte 1 */
+/*  BODY PARTE E parte 1  Playstation Now */
 
-    .container-now {
+.container-now {
     padding-left: 50px;
-    }
+}
 
-    .now-text img{
+.now-text img{
     width: 500px;
-    }
+}
 
-/* FOOTER PARTE 1A  */
+/* FOOTER PARTE 1A  Loghi*/
 
 .play-image {
-width: 100px;
+    width: 100px;
 }
 
 .globe {
-width: 20px;
+    width: 20px;
 }
 
+/* FOOTER PARTE 2 Copyright  */
+
 .logo-sie {
-width: 200px;
+    width: 150px;
 }
 
 }
@@ -624,49 +675,69 @@ width: 200px;
 
 @media screen and (min-width: 1200px) {
 
-    /* PARTE 3 RETURN ON HEAD */
+/* HEADER PARTE 3 RETURN ON HEAD */
 
-    .container-return {
+.container-return {
     width: 500px;
     padding-top: 265px;
     padding-left: 20px;
-    }   
+}   
 
-    /* PARTE D parte 1 */
+
+/* BODY PARTE B parte 1 Jumbo Takes  */
+
+.container-take-content {
+    padding-top: 70px;
+    padding-left: 20px;
+}   
+
+.content-take-image img {
+    width: 300px;
+}
+
+.content-take-image{
+    padding-bottom: 50px;
+}
+
+.content-take-text p{
+    padding-bottom: 20px;
+}
+
+
+/* BODY  PARTE D parte 1  Playstation plus*/
     
-    .container-plus {
+.container-plus {
     padding-left: 50px;
-    }
+}
 
-    .plus-text img{
+.plus-text img{
     width: 500px;
-    }
+}
 
-    /* PARTE E parte 1 */
+/* BODY PARTE E parte 1  Playstation Now */
 
-    .container-now {
+.container-now {
     padding-left: 50px;
-    }
+}
 
-    .now-text img{
+.now-text img{
     width: 500px;
-    }
+}
 
-/* FOOTER PARTE 1A  */
+/* FOOTER PARTE 1A Loghi  */
 
 .play-image {
-width: 100px;
+    width: 100px;
 }
 
 .globe {
-width: 20px;
+    width: 20px;
 }
+
+/* FOOTER PARTE 2 Copyright  */
 
 .logo-sie {
-width: 200px;
+    width: 150px;
 }
-
-
-
 
 }
