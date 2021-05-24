@@ -13,7 +13,7 @@ background esplora playstation now #ffffff bianco + scritta #161c3b  blu scuro
 colore scritta seguici sui social #1f1f1f
 background footer #00439c + scritte bianche  */
 
-/* Sezione comune a tutti */
+/* SEZIONE COMUNE A TUTTI */
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -35,8 +35,21 @@ a {
     text-decoration: none;
 }
 
+.space {
+    padding-top: 50px;
+}
 
-/* HEADER - PARTE SUPERIORE  */
+.space-middle {
+    padding-top: 15px;
+}
+
+.space-double {
+    padding-top: 100px;
+}
+
+/* HEADER - SUDDIVISA IN 3  */
+
+/* PARTE 1 NERO */
 
 .black-sony {
     background-color: black;
@@ -48,9 +61,9 @@ a {
     width: 100px;
 }
 
-/* NAV BAR */
+/* PARTE 2 NAV BAR */
 
-div.sticky {
+.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -96,7 +109,7 @@ div.sticky {
     color: white;
 }
 
-/* HEADER GIOCO */
+/* PARTE 3 HEADER RETURNAL - BOOTSTRAP SOTTO MEDIAQUERY */
 
 .background-header {
     background-image: url(../img/jumbo-bg.png); 
@@ -136,9 +149,7 @@ div.sticky {
 
 /* INIZIO SEZIONI DEI GIOCHI  */
 
-.space {
-    padding-top: 50px;
-}
+/* PARTE A parte 1 BOOTSTRAP */
 
 .box-mini, .play-inner, .box {
     border-radius: 20px;
@@ -154,11 +165,13 @@ div.sticky {
     border: 2px solid #2d64e6 ;
 }
 
+/* PARTE A parte 2 BOOTSTRAP */
+
 .color-bold-font {
     text-align: center;
 }
 
-/* Sezione Colori Font  H */
+/* PARTE A parte BOOTSTRAP  */
 
 .color-bold-font h6 {
     color: #2d64e6;
@@ -203,7 +216,7 @@ div.sticky {
     text-align: center;
 }
 
- /* Secondo jumbo  */
+ /* PARTE B parte 1 BOOTSTRAP  */
 
  .background-middle {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg); 
@@ -219,7 +232,7 @@ div.sticky {
 }
 
 .content-take-image img {
-    width: 70%;
+    width: 100%;
 }
 
 .content-take-text {
@@ -229,6 +242,9 @@ div.sticky {
 .content-take-text p {
     font-weight: 600;
 }
+
+
+/* PARTE B parte BOOTSTRAP */
 
 .bg-middle-color {
     background-color: #1f1f1f;
@@ -249,13 +265,152 @@ div.sticky {
     font-weight: 600;
 }
 
+/* PARTE C parte 1 BOOTSTRAP*/
+
+.playstation-4 {
+    text-align: center;
+}
+
+.playstation-4 h2 {
+    font-weight: 600;
+}
+
+.trade-min {
+    font-size: 16px;
+    vertical-align: super;
+}
+
+/* PARTE C parte 2 BOOTSTRAP*/
+
+.explore-ps-box img {
+    width: 100%;
+}
+
+.explore-ps-text h2 {
+    font-weight: 600;
+}
+
+.explore-ps-text p {
+    font-size: 20px;
+}
+
+/* PARTE D parte 1 BOOTSTRAP + MEDIQUERY IN BASSO  */
+
+.bg-lightgray {
+    background-color: #bebcbb;
+}
+
+.plus-text img {
+    width: 90%;
+}
+
+.plus-text p {
+    font-weight: 600;
+    padding: 50px 0;
+}
+
+.plus-image img {
+    width: 100%;
+}
+
+.button-plus {
+    background-color: #d9dadc;
+    color: #3469e6;
+}
 
 
+/* PARTE D parte 2 BOOTSTRAP */
+
+.discounts {
+    text-align: center;
+}
+
+.discounts h2 {
+    font-weight: 600;
+}
+
+.discounts-ps {
+    padding-top: 15px;
+
+}
+
+.discounts-ps-box img {
+    width: 100%;
+}
+
+.discounts-ps-text h2 {
+    font-weight: 600;
+}
+
+.discounts-ps-text p {
+    font-size: 20px;
+}
+
+/* PARTE E parte 1 BOOTSTRAP + MEDIAQUERY IN FONDO */
+
+.bg-blue {
+    background-color: #161c3b;
+    color: white;
+}
+
+.now-text p {
+    font-weight: 600;
+    padding: 50px 0;
+}
 
 
+.button-now {
+    background-color: #d9dadc;
+    color: black;
+}
 
 
+/* PARTE E parte 2  */
 
+.social {
+    text-align: center;
+}
+
+.social h2 {
+    font-size: 50px;
+}
+
+.social-ps-image  {
+    padding: 10px 5px;
+}
+
+.social-ps-image img {
+    width: 100%;
+}
+
+/* PARTE 1A BOOTSTRAP + MEDIAQUERY IN FONDO */
+
+.bg-lightblue {
+    background-color: #00439c;
+    }
+
+/* PARTE 1B BOOTSTRAP + MEDIAQUERY IN FONDO */
+    
+
+.container-footer ul {
+    list-style-type: none;
+}
+
+.container-footer a {
+    color: white; 
+}
+
+.container-footer a:hover {
+    text-decoration:underline;
+}
+
+/* PARTE 2 BOOTSTRAP + MEDIAQUERY IN FONDO */
+
+.footer-text p {
+    color: white;
+    font-weight: 600;
+    padding: 50px 0;
+}
 
 
 
@@ -285,13 +440,16 @@ div.sticky {
 
 /* MEDIAQUERY  */
 
-@media screen and (min-width: 280px) and (max-width: 767px) {
+/* Breakpoint di bootstrap */
 
-    /* RETURN ON HEAD */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+    /* PARTE 3 RETURN ON HEAD */
     .container-return {
     padding-top: 265px;
     padding-left: 5px;
     }
+
     .content-return-image img {
     width: 300px;
     }
@@ -299,12 +457,38 @@ div.sticky {
     .content-return h2 {
     font-weight: 600;
     }
+
+    /* PARTE D parte 1 */
+
+    .container-plus {
+    padding: 20px;
+    }
+
+    .plus-text img{
+    width: 300px;
+    }
+
+
+    /* PARTE E parte 1 */
+
+    .container-now {
+    padding: 20px;
+    }
+
+    .now-text img{
+    width: 300px;
+    }
+
+
 }
+
+
 /* ************** */
 
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+@media screen and (min-width: 768px) and (max-width: 992px)  {
 
-    /* RETURN ON HEAD */
+    /* PARTE 3 RETURN ON HEAD */
+    
     .container-return {
     padding-top: 265px;
     padding-left: 20px;
@@ -317,13 +501,37 @@ div.sticky {
     .content-return h2 {
     font-weight: 600;
     }
+
+    /* PARTE D parte 1 */
+
+    .container-plus {
+    padding: 20px;
+    }
+
+    .plus-text img{
+    width: 300px;
+    }
+
+
+    /* PARTE E parte 1 */
+
+    .container-now {
+    padding: 20px;
+    }
+
+    .now-text img{
+    width: 300px;
+    }
+
+
 }
 
 /* ************** */
 
-@media screen and (min-width: 1024px) and (max-width: 1199px)  {
+@media screen and (min-width: 993px) and (max-width: 1199px)  {
 
-    /* RETURN ON HEAD */
+    /* PARTE 3 RETURN ON HEAD */
+    
     .container-return {
     padding-top: 265px;
     padding-left: 20px;
@@ -332,16 +540,64 @@ div.sticky {
     .content-return-image img {
     width: 400px;
     }
+
+    /* PARTE D parte 1 */
+
+    .container-plus {
+    padding-left: 20px;
+    }
+
+    .plus-text img{
+    width: 500px;
+    }
+
+
+    /* PARTE E parte 1 */
+
+    .container-now {
+    padding-left: 50px;
+    }
+
+    .now-text img{
+    width: 500px;
+    }
+
+    
+
 }
 
 /* ************** */
 
 @media screen and (min-width: 1200px) {
 
-    /* RETURN ON HEAD */
+    /* PARTE 3 RETURN ON HEAD */
+
     .container-return {
     width: 500px;
     padding-top: 265px;
     padding-left: 20px;
-    }    
+    }   
+
+    /* PARTE D parte 1 */
+    
+    .container-plus {
+    padding-left: 50px;
+    }
+
+    .plus-text img{
+    width: 500px;
+    }
+
+    /* PARTE E parte 1 */
+
+    .container-now {
+    padding-left: 50px;
+    }
+
+    .now-text img{
+    width: 500px;
+    }
+
+
+
 }
