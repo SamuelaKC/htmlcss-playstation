@@ -387,7 +387,22 @@ a {
 
 .bg-lightblue {
     background-color: #00439c;
+    color: white;
     }
+
+.footer-text p, .footer-text {
+    padding: 10px 0;
+}
+
+.play-image {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.globe {
+width: 100%;
+}
+
 
 /* PARTE 1B BOOTSTRAP + MEDIAQUERY IN FONDO */
     
@@ -404,15 +419,16 @@ a {
     text-decoration:underline;
 }
 
+
 /* PARTE 2 BOOTSTRAP + MEDIAQUERY IN FONDO */
 
-.footer-text p {
-    color: white;
-    font-weight: 600;
-    padding: 50px 0;
+.logo-sie {
+    width: 100%;
 }
 
-
+.mayor-underline {
+    text-decoration:underline;
+}
 
 
 
@@ -479,6 +495,19 @@ a {
     width: 300px;
     }
 
+    /* FOOTER PARTE 1A  */
+
+.play-image {
+width: 100px;
+}
+
+.globe {
+width: 20px;
+}
+
+.logo-sie {
+width: 150px;
+}
 
 }
 
@@ -523,6 +552,19 @@ a {
     width: 300px;
     }
 
+    /* FOOTER PARTE 1A  */
+
+.play-image {
+width: 100px;
+}
+
+.globe {
+width: 20px;
+}
+
+.logo-sie {
+width: 200px;
+}
 
 }
 
@@ -562,7 +604,19 @@ a {
     width: 500px;
     }
 
-    
+/* FOOTER PARTE 1A  */
+
+.play-image {
+width: 100px;
+}
+
+.globe {
+width: 20px;
+}
+
+.logo-sie {
+width: 200px;
+}
 
 }
 
@@ -597,6 +651,21 @@ a {
     .now-text img{
     width: 500px;
     }
+
+/* FOOTER PARTE 1A  */
+
+.play-image {
+width: 100px;
+}
+
+.globe {
+width: 20px;
+}
+
+.logo-sie {
+width: 200px;
+}
+
 
 
 
