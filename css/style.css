@@ -201,6 +201,7 @@ a {
 .box-opacity {
     filter: opacity(50%);
     padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
 }
 
 .box-opacity a {
@@ -210,7 +211,7 @@ a {
 .box-opacity:hover {
     transition-duration: 1s;
     filter: opacity(100%);
-    border-bottom: 2px solid #2d64e6;
+    border-color:  #2d64e6;
 
 }
 
