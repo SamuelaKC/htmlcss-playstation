@@ -9,4 +9,4 @@ document.getElementById('consolePlaystation').innerHTML = sumPlay; //fa la somma
 
 alert ("Ci sono prove di Js, vedere console.log per dettagli!"); //popup di alert che compare prima di accedere al sito
 
-// ricordarsi di mettere punte e virgola alla fine
+// ricordarsi di mettere punto e virgola alla fine
